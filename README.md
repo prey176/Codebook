@@ -35,16 +35,3 @@
   3. Depending upon the problem check out the addEdge function.
   
   4. The time complexity of the algorithm is O(Ef) where E is the number of Edges and f is the maximum flow (Atleast one). The space complexity is O(V^2 + E).
-  
-  5. For bipartite graphs, to compute maximum bipartite matching. To get the matching check for rG[u][v] == 0 to check if it is a matching edge where there is an edge between u & v and they are in different sets. 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
