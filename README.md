@@ -26,7 +26,7 @@
 ## 4. dijkstra.cpp
   This code implements the dijkstra algorithm.
   
-## 5. fordFulkerson.cpp
+## 5. fordFulkerson1.cpp
   1. This code implements the ford fulkerson algorithm which calculates the Maximum Flow.
   
   2. The nodes are ideally should be numbered as 1-indexed. So, if there are v nodes,
@@ -35,3 +35,12 @@
   3. Depending upon the problem check out the addEdge function.
   
   4. The time complexity of the algorithm is O(Ef) where E is the number of Edges and f is the maximum flow (Atleast one). The space complexity is O(V^2 + E).
+  
+
+## 5. fordFulkerson2.cpp
+  1. This code implements the ford fulkerson algorithm which calculates the Maximum Flow.
+  
+  2. The nodes are ideally should be numbered as 1-indexed. So, if there are v nodes,
+  the constructor should be given v+1 nodes.
+  
+  3. The time complexity of the algorithm is O(E f log(MAX DEGREE)) where E is the number of Edges and f is the maximum flow (Atleast one). The space complexity is O(V + E).
