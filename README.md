@@ -37,7 +37,7 @@
   4. The time complexity of the algorithm is O(Ef) where E is the number of Edges and f is the maximum flow (Atleast one). The space complexity is O(V^2 + E).
   
 
-## 5. fordFulkerson2.cpp
+## 6. fordFulkerson2.cpp
   1. This code implements the ford fulkerson algorithm which calculates the Maximum Flow.
   
   2. The nodes are ideally should be numbered as 1-indexed. So, if there are v nodes,
