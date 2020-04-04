@@ -44,3 +44,10 @@
   the constructor should be given v+1 nodes.
   
   3. The time complexity of the algorithm is O(E f log(MAX DEGREE)) where E is the number of Edges and f is the maximum flow (Atleast one). The space complexity is O(V + E).
+
+## 7. bipartiteMatching.cpp
+  1. This code implements the Hopcroft-Karp algorithm which calculates the Maximal Matching for bipartite graphs.
+  
+  2. The nodes on the left and right side are both 1-indexed respectively.
+  
+  3. The time complexity of the algorithm is O(EV^0.5) and the space complexity is O(V + E).
