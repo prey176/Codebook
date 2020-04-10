@@ -55,4 +55,4 @@
 ## 8. Mo-offline.cpp
   1. Problem Source - https://codeforces.com/problemset/problem/220/B
   
-  2. You could get the major template of Mo Algorithm in it.
+  2. You could get the major template of Mo Offline Algorithm in it.
