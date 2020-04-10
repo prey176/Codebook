@@ -51,3 +51,8 @@
   2. The nodes on the left and right side are both 1-indexed respectively.
   
   3. The time complexity of the algorithm is O(EV^0.5) and the space complexity is O(V + E).
+  
+## 8. Mo-offline.cpp
+  1. Problem Source - https://codeforces.com/problemset/problem/220/B
+  
+  2. You could get the major template of Mo Algorithm in it.
