@@ -16,6 +16,7 @@ using namespace std ;
 #define pll pair<ll,ll>
 #define mp make_pair
 #define endl '\n'
+#define infinity 1e18
 
 // template <class T, class cmp = less<T>> using ordered_set = tree<T, null_type, cmp, rb_tree_tag, tree_order_statistics_node_update>;
 
