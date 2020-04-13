@@ -62,7 +62,9 @@
   1. Problem Source - https://codeforces.com/contest/868/problem/F
   
   2. Preconditions -
+  
       2.1  The DP Expression should be of this form DP[i][j] = MIN(k <= j)   {DP[i-1][k] + C[k][j]}.
+      
       2.2  Let opt(i,j) be the value of k that minimizes the above expression. If opt(i,j)≤opt(i,j+1) for all i,j, then we can apply divide-and-conquer DP.
   
   3. The time complexity is O(n k log n). The Space Complexity is O(n k).
