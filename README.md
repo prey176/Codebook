@@ -5,6 +5,7 @@
   
 ## 2. binarylifting2.cpp
   This code produces LCA of a given tree using the concept of binary lifting with the use of Ancestors.
+  CONTAINS ERROR!!! FIX IT!!!
 
 ## 3. TwoSAT.cpp
     
@@ -56,3 +57,14 @@
   1. Problem Source - https://codeforces.com/problemset/problem/220/B
   
   2. You could get the major template of Mo Offline Algorithm in it.
+
+## 9. D&C-dpOptimization.cpp
+  1. Problem Source - https://codeforces.com/contest/868/problem/F
+  
+  2. Preconditions -
+      2.1  The DP Expression should be of this form DP[i][j] = MIN(k <= j)   {DP[i-1][k] + C[k][j]}.
+      2.2  Let opt(i,j) be the value of k that minimizes the above expression. If opt(i,j)≤opt(i,j+1) for all i,j, then we can apply divide-and-conquer DP.
+  
+  3. The time complexity is O(n k log n). The Space Complexity is O(n k).
+  
+  4. Change the update function as per the needs. It doesn't affect the comlexity. This file contains the major template of Divide and Conquer DP Optimization.
