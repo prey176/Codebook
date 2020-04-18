@@ -70,3 +70,6 @@
   3. The time complexity is O(n k log n). The Space Complexity is O(n k).
   
   4. Change the update function as per the needs. It doesn't affect the comlexity. This file contains the major template of Divide and Conquer DP Optimization.
+
+## 10. geometry.cpp
+  1. May contain bugs. FIX IT.
