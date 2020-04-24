@@ -73,3 +73,8 @@
 
 ## 10. geometry.cpp
   1. May contain bugs. FIX IT.
+  
+## 11. articulationPoints&Bridges.cpp
+  1. Articulation Points are printed are sorted in increasing order and so are the edges (u v where u < v) in increasing order with the first vertex and then the second vertex.
+  
+  2. This helps us encapsulate the concept of DFS Tree.
