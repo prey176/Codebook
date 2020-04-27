@@ -83,3 +83,8 @@
   1. Problem Source - https://www.spoj.com/problems/QTREE/
   
   2. This is an example for Heavy Light Decompostion with queries on edges. This will help you get the template for HLD for edge queries.
+  
+## 13. hld2.cpp
+  1. Problem Source - https://www.spoj.com/OI/problems/QTREE3/ , I couldn't submit the problem (100% Not Sure).
+  
+  2. This is an example for Heavy Light Decompostion with queries on vertices. This will help you get the template for HLD for vertices queries.
