@@ -84,6 +84,8 @@
   
   2. This is an example for Heavy Light Decompostion with queries on edges. This will help you get the template for HLD for edge queries.
   
+  3. The difference between Edge based queries and vertex based queries is that we take the information of the edge to the vertex with the larger depth. Then it is just like HLD with vertex queries but with the change that during queries we don't need the LCA. This is clearly seen in the query function of the HeavyLightDecomposition Struct, where the last Segtree query call had in[u] + 1 instead of in[u]. 
+  
 ## 13. hld2.cpp
   1. Problem Source - https://www.spoj.com/OI/problems/QTREE3/ , I couldn't submit the problem (100% Not Sure).
   
