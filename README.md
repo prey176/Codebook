@@ -78,3 +78,8 @@
   1. Articulation Points are printed are sorted in increasing order and so are the edges (u v where u < v) in increasing order with the first vertex and then the second vertex.
   
   2. This helps us encapsulate the concept of DFS Tree.
+
+## 12. hld1.cpp
+  1. Problem Source - https://www.spoj.com/problems/QTREE/
+  
+  2. This is an example for Heavy Light Decompostion with queries on edges. This will help you get the template for HLD for edge queries.
