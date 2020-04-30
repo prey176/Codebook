@@ -90,3 +90,6 @@
   1. Problem Source - https://www.spoj.com/OI/problems/QTREE3/ , I couldn't submit the problem. However, I submitted the HLD in some other problem and it got accepted.
   
   2. This is an example for Heavy Light Decompostion with queries on vertices. This will help you get the template for HLD for vertices queries.
+
+## 14. segmentTree.cpp
+  1. Single Update Segment Tree. Just update the combine function.
