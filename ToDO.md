@@ -8,11 +8,7 @@
 
 ## Segment Tree
 
-(1) Min-max-sum
-
-(2) Lazy Min-max-sum
-
-(3) Persistent
+(1) Persistent
 
 ## Maxflow
 
