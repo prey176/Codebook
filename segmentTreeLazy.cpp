@@ -2,11 +2,10 @@
 struct Node
 {
 public:
-	ll count;
 	ll num;
- 
-	Node(ll a,ll b) : num(a), count(b) {}
-	Node() : num(0), count(1) {}
+
+	Node(ll a) : num(a) {}
+	Node() : num(0) {}
 	
 	void add(ll val)
 	{
@@ -25,15 +24,7 @@ public:
  
 	Node combine (Node a, Node b)
 	{
-		if (a.num == b.num)
-		{
-			return Node(a.num,a.count+b.count);
-		}
-		if (a.num > b.num)
-		{
-			return a;
-		}
-		return b;
+		return Node(a.num+b.num);
 	}
  
 	void propogate(ll v, ll start, ll end)
@@ -43,7 +34,7 @@ public:
 			lazy[2*v] += lazy[v];
 			lazy[2*v+1] += lazy[v];
 		}
-		segment[v].add(lazy[v]);
+		segment[v].add(lazy[v]*(end - start + 1));
 		lazy[v] = 0;
 	}
  
@@ -84,7 +75,7 @@ public:
 		propogate(v,start,end);
 		if (rangeY < start or end < rangeX)
 		{
-			return Node(-1,0);
+			return Node();
 		}
 		if (rangeX <= start and end <= rangeY)
 		{
