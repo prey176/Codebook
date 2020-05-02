@@ -96,3 +96,6 @@
 
 ## 15. segmentTreeLazy.cpp
   1. Range Update Segment Tree. Just update the combine function, Node class and propogate.
+
+## 16. mergeSortTree.cpp
+  1. Nothing special in this.
