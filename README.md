@@ -99,3 +99,8 @@
 
 ## 16. mergeSortTree.cpp
   1. Nothing special in this.
+  
+## 17. topologicalSort.cpp
+  1. Used when we need to order some elements and there is a dependency between elements i.e. some elements only if other elements are there.
+  2. Will not work if there is a Cycle. 
+  3. Add Edges ( u,v ) in graph if v will come only after u comes.
