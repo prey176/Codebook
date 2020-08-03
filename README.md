@@ -104,3 +104,7 @@
   1. Used when we need to order some elements and there is a dependency between elements i.e. some elements only if other elements are there.
   2. Will not work if there is a Cycle. 
   3. Add Edges ( u,v ) in graph if v will come only after u comes.
+
+## 18. longestIncreasingSubsequence.cpp
+  1. Longest Increasing Subsequence -> O (N Log N)
+  2. DP Array -> dp [i] = Smallest element ending with LIS of length i-1.
