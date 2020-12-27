@@ -19,7 +19,7 @@ int lengthOfLIS(vector<int>& nums)
             continue;
         }
 
-        dp [index] = nums [i];
+        dp [index] = min (dp [index], nums [i]);
     }
 
     return dp.size();
